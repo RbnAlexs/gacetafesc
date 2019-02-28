@@ -1,0 +1,209 @@
+********************************************************************************
+* DUPLICATOR-LITE: Install-Log
+* STEP-1 START @ 03:17:13
+* VERSION: 1.3.8
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PHP:		7.2.15-1+0~20190209065123.16+stretch~1.gbp3ad8c0 | SAPI: apache2handler
+PHP MEMORY:	4294967296 | SUHOSIN: disabled
+SERVER:		Apache/2.4.25 (Debian)
+DOC ROOT:	/home/gacela/public_html
+DOC ROOT 755:	false
+LOG FILE 644:	true
+REQUEST URL:	http://gacetacomunidad.cuautitlan.unam.mx/dup-installer/main.installer.php
+SAFE MODE :	0
+CONFIG MODE :	NEW
+--------------------------------------
+PRE-EXTRACT-CHECKS
+--------------------------------------
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME:	20190225_gaceta_9335befd7783bd0a8384_20190228021158_archive.zip
+SIZE:	63.15MB
+
+ZIP:	Shell Exec Unzip
+>>> Starting Shell-Exec Unzip:
+Command: unzip -o -qq '/home/gacela/public_html/20190225_gaceta_9335befd7783bd0a8384_20190228021158_archive.zip' -d '/home/gacela/public_html' 2>&1
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+*** PHP Warning Message: chmod(): Operation not permitted (Code: 2, line 316 in /home/gacela/public_html/dup-installer/ctrls/ctrl.s1.php)
+Permissions setting on directory '/home/gacela/public_html/wp-includes/..' failed
+*** PHP Warning Message: chmod(): Operation not permitted (Code: 2, line 311 in /home/gacela/public_html/dup-installer/ctrls/ctrl.s1.php)
+Permissions setting on file '/home/gacela/public_html/20190225_gaceta_9335befd7783bd0a8384_20190228021158_archive.zip' failed
+*** PHP Warning Message: touch(): Utime failed: Permission denied (Code: 2, line 321 in /home/gacela/public_html/dup-installer/ctrls/ctrl.s1.php)
+*** PHP Warning Message: chmod(): Operation not permitted (Code: 2, line 316 in /home/gacela/public_html/dup-installer/ctrls/ctrl.s1.php)
+Permissions setting on directory '/home/gacela/public_html/..' failed
+*** PHP Warning Message: touch(): Utime failed: Permission denied (Code: 2, line 321 in /home/gacela/public_html/dup-installer/ctrls/ctrl.s1.php)
+*** PHP Warning Message: chmod(): Operation not permitted (Code: 2, line 316 in /home/gacela/public_html/dup-installer/ctrls/ctrl.s1.php)
+Permissions setting on directory '/home/gacela/public_html/wp-content/..' failed
+*** PHP Warning Message: chmod(): Operation not permitted (Code: 2, line 316 in /home/gacela/public_html/dup-installer/ctrls/ctrl.s1.php)
+Permissions setting on directory '/home/gacela/public_html/dup-installer/..' failed
+*** PHP Warning Message: chmod(): Operation not permitted (Code: 2, line 316 in /home/gacela/public_html/dup-installer/ctrls/ctrl.s1.php)
+Permissions setting on directory '/home/gacela/public_html/.' failed
+*** PHP Warning Message: chmod(): Operation not permitted (Code: 2, line 316 in /home/gacela/public_html/dup-installer/ctrls/ctrl.s1.php)
+Permissions setting on directory '/home/gacela/public_html/wp-admin/..' failed
+*** PHP Warning Message: chmod(): Operation not permitted (Code: 2, line 311 in /home/gacela/public_html/dup-installer/ctrls/ctrl.s1.php)
+Permissions setting on file '/home/gacela/public_html/installer.php' failed
+*** PHP Warning Message: touch(): Utime failed: Permission denied (Code: 2, line 321 in /home/gacela/public_html/dup-installer/ctrls/ctrl.s1.php)
+
+STEP-1 COMPLETE @ 03:17:15 - RUNTIME: 1.5737 sec.
+*** PHP Warning Message: chmod(): Operation not permitted (Code: 2, line 75 in /home/gacela/public_html/dup-installer/classes/config/class.constants.php)
+*** PHP Warning Message: mysqli_connect(): (HY000/1045): Access denied for user 'unamfesc'@'localhost' (using password: YES) (Code: 2, line 41 in /home/gacela/public_html/dup-installer/classes/class.db.php)
+*** PHP Warning Message: chmod(): Operation not permitted (Code: 2, line 75 in /home/gacela/public_html/dup-installer/classes/config/class.constants.php)
+*** PHP Warning Message: mysqli_connect(): (HY000/1698): Access denied for user 'unamfescunam'@'localhost' (Code: 2, line 41 in /home/gacela/public_html/dup-installer/classes/class.db.php)
+*** PHP Warning Message: chmod(): Operation not permitted (Code: 2, line 75 in /home/gacela/public_html/dup-installer/classes/config/class.constants.php)
+*** PHP Warning Message: chmod(): Operation not permitted (Code: 2, line 75 in /home/gacela/public_html/dup-installer/classes/config/class.constants.php)
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 03:54:44
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.1.37 -- Build Server: 5.6.32
+FILE SIZE:	dup-database__9335bef-28021158.sql (2.01MB)
+TIMEOUT:	5000
+MAXPACK:	16777216
+SQLMODE:	NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/home/gacela/public_html/dup-installer/dup-installer-data__9335bef-28021158.sql]
+COLLATE FB:	Off
+*** PHP Warning Message: count(): Parameter must be an array or an object that implements Countable (Code: 2, line 351 in /home/gacela/public_html/dup-installer/ctrls/ctrl.s2.dbinstall.php)
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	177
+
+unamgct_commentmeta: (0)
+unamgct_comments: (0)
+unamgct_duplicator_packages: (0)
+unamgct_links: (0)
+unamgct_options: (217)
+unamgct_postmeta: (385)
+unamgct_posts: (128)
+unamgct_revslider_css: (109)
+unamgct_revslider_layer_animations: (0)
+unamgct_revslider_navigations: (0)
+unamgct_revslider_sliders: (1)
+unamgct_revslider_slides: (1)
+unamgct_revslider_static_slides: (0)
+unamgct_term_relationships: (7)
+unamgct_term_taxonomy: (12)
+unamgct_termmeta: (26)
+unamgct_terms: (12)
+unamgct_usermeta: (27)
+unamgct_users: (1)
+Removed '40' cache/transient rows
+
+INSERT DATA RUNTIME: 0.7517 sec.
+STEP-2 COMPLETE @ 03:54:45 - RUNTIME: 0.7546 sec.
+*** PHP Warning Message: chmod(): Operation not permitted (Code: 2, line 75 in /home/gacela/public_html/dup-installer/classes/config/class.constants.php)
+*** PHP Warning Message: chmod(): Operation not permitted (Code: 2, line 75 in /home/gacela/public_html/dup-installer/classes/config/class.constants.php)
+
+
+
+********************************************************************************
+DUPLICATOR-LITE INSTALL-LOG
+STEP-3 START @ 03:54:50
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	utf8mb4
+CHARSET CLIENT:	utf8
+
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+unamgct_commentmeta^ (0)
+unamgct_comments^ (0)
+unamgct_duplicator_packages^ (0)
+unamgct_links^ (0)
+unamgct_options~ (217)
+unamgct_postmeta~ (385)
+unamgct_posts~ (128)
+unamgct_revslider_css~ (109)
+unamgct_revslider_layer_animations^ (0)
+unamgct_revslider_navigations^ (0)
+unamgct_revslider_sliders~ (1)
+unamgct_revslider_slides~ (1)
+unamgct_revslider_static_slides^ (0)
+unamgct_term_relationships~ (7)
+unamgct_term_taxonomy~ (12)
+unamgct_termmeta~ (26)
+unamgct_terms~ (12)
+unamgct_usermeta~ (27)
+unamgct_users~ (1)
+--------------------------------------
+Search1:	'@mktv.com.mx' 
+Change1:	'@unam.mx' 
+Search2:	'%40mktv.com.mx' 
+Change2:	'%40unam.mx' 
+Search3:	'/home/mktvcom/public_html/gaceta' 
+Change3:	'/home/gacela/public_html' 
+Search4:	'\/home\/mktvcom\/public_html\/gaceta' 
+Change4:	'\/home\/gacela\/public_html' 
+Search5:	'%2Fhome%2Fmktvcom%2Fpublic_html%2Fgaceta%2F' 
+Change5:	'%2Fhome%2Fgacela%2Fpublic_html%2F' 
+Search6:	'\home\mktvcom\public_html\gaceta' 
+Change6:	'/home/gacela/public_html' 
+Search7:	'\\home\\mktvcom\\public_html\\gaceta' 
+Change7:	'\/home\/gacela\/public_html' 
+Search8:	'%5Chome%5Cmktvcom%5Cpublic_html%5Cgaceta' 
+Change8:	'%2Fhome%2Fgacela%2Fpublic_html' 
+Search9:	'//mktv.com.mx/gaceta' 
+Change9:	'//gacetacomunidad.cuautitlan.unam.mx' 
+Search10:	'\/\/mktv.com.mx\/gaceta' 
+Change10:	'\/\/gacetacomunidad.cuautitlan.unam.mx' 
+Search11:	'%2F%2Fmktv.com.mx%2Fgaceta' 
+Change11:	'%2F%2Fgacetacomunidad.cuautitlan.unam.mx' 
+Search12:	'https://gacetacomunidad.cuautitlan.unam.mx' 
+Change12:	'http://gacetacomunidad.cuautitlan.unam.mx' 
+Search13:	'https:\/\/gacetacomunidad.cuautitlan.unam.mx' 
+Change13:	'http:\/\/gacetacomunidad.cuautitlan.unam.mx' 
+Search14:	'https%3A%2F%2Fgacetacomunidad.cuautitlan.unam.mx' 
+Change14:	'http%3A%2F%2Fgacetacomunidad.cuautitlan.unam.mx' 
+SCANNED:	Tables:19 	|	 Rows:926 	|	 Cells:6381 
+UPDATED:	Tables:2 	|	 Rows:146 	|	 Cells:148 
+ERRORS:		0 
+RUNTIME:	0.132500 sec
+
+====================================
+CONFIGURATION FILE UPDATES:
+====================================
+
+UPDATED WP-CONFIG ARK FILE:
+ - '/home/gacela/public_html/wp-config.php'
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache 'htaccess.orig' was removed
+
+====================================
+NOTICES
+====================================
+
+No General Notices Found
+
+
+STEP-3 COMPLETE @ 03:54:50 - RUNTIME: 0.1373 sec. 
+
+
+*** PHP Warning Message: chmod(): Operation not permitted (Code: 2, line 75 in /home/gacela/public_html/dup-installer/classes/config/class.constants.php)
+*** PHP Warning Message: chmod(): Operation not permitted (Code: 2, line 75 in /home/gacela/public_html/dup-installer/classes/config/class.constants.php)
